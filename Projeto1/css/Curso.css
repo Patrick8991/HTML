@@ -1,0 +1,49 @@
+.topmenu{
+    
+    width: auto;
+    border: 1px solid black;
+}
+
+.bannerimg{
+    margin-left: 15%;
+    top: 1cm;
+    bottom: 1cm;
+    width: 30%;
+    position:relative;
+}
+
+.title{
+    margin-left: 15%;
+    color: white;
+    position:relative;
+    align-self: center;
+    font-size: 42px;
+}
+
+.banner{
+    
+    border: 1px solid black;
+    background: gray;
+    position: relative;
+    height: auto;
+    overflow:hidden;
+    display:flex;
+}
+
+.intro{
+    
+    border: 1px solid black;
+    padding: 10px 0px 10px 0px;
+    font-size: 21px;
+}
+
+.centernav{
+    border: 1px solid black;
+    display: flex;
+}
+
+
+footer{
+    
+    border:1px solid black;
+}
