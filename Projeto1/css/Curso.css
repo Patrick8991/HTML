@@ -6,8 +6,8 @@
 
 .bannerimg{
     margin-left: 15%;
-    top: 1cm;
-    bottom: 1cm;
+    top: 0.2cm;
+    bottom: 0.2cm;
     width: 30%;
     position:relative;
 }
@@ -24,10 +24,7 @@
     
     border: 1px solid black;
     background: gray;
-    position: relative;
-    height: auto;
-    overflow:hidden;
-    display:flex;
+    display: flex;
 }
 
 .intro{
@@ -37,11 +34,20 @@
     font-size: 21px;
 }
 
-.centernav{
+.category{
     border: 1px solid black;
     display: flex;
 }
 
+ul{
+    border:1px solid black;
+    padding: 10px 0px 0px 0px;
+    font-size: 21px;
+}
+
+li{
+   padding: 0px 5px 0px 5px; 
+}
 
 footer{
     
