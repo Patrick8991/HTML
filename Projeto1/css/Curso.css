@@ -1,19 +1,28 @@
+body{
+    background-color: #e10022;
+}
+
+.logoinsper{
+    max-height: 1.6cm;
+}
+
 .topmenu{
     
     width: auto;
-    border: 1px solid black;
+    margin-left: 7%;
+    height: 2.4cm;
+    display: flex;
+    align-items: center;
 }
 
 .bannerimg{
-    margin-left: 15%;
-    top: 0.2cm;
-    bottom: 0.2cm;
-    width: 30%;
-    position:relative;
+    margin-left: 7%;
+    position: absolute;
+    max-height: 5cm;
 }
 
 .title{
-    margin-left: 15%;
+    margin-left: 42%;
     color: white;
     position:relative;
     align-self: center;
@@ -23,18 +32,23 @@
 .banner{
     
     border: 1px solid black;
-    background: gray;
+    background: #9c1f18;
     display: flex;
+    height: 5cm;
+    align-items: center;
 }
 
 .intro{
     
+    margin-left: 7%;
     border: 1px solid black;
     padding: 10px 0px 10px 0px;
-    font-size: 21px;
+    font-size: 24px;
+    color: white;
 }
 
 .category{
+    margin-left: 7%;
     border: 1px solid black;
     display: flex;
 }
@@ -43,6 +57,7 @@ ul{
     border:1px solid black;
     padding: 10px 0px 0px 0px;
     font-size: 21px;
+    color: white;
 }
 
 li{
@@ -51,5 +66,11 @@ li{
 
 footer{
     
-    border:1px solid black;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 0.8cm;
+    color: white;
+    background-color: #9c1f18;
+    text-align: center;
 }
