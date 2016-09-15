@@ -60,6 +60,7 @@ class Button{
             "#FE8D0E"
         ]
     }
+    
     update(){
         //logic
         this.counter+=(this.mouseover ? 1 : -1);
@@ -152,9 +153,10 @@ function mouseSelect(event){
 //main
 
 function main(){
-    //executar transformação entre os botões
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+    document.body.style.cursor = 'default';
     if(mouseover){
+        document.body.style.cursor = 'pointer';
         mouseover.mouseover= true;
     }
     buttons.forEach(function(btn) {
