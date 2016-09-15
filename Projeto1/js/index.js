@@ -77,23 +77,13 @@ var buttons= [];
 var rad;
 function buildButtons(){
     var labels=[
-        "Projetos Teóricos",
-        "Projetos Práticos",
-        "Anáise Matemática",
-        "Direcionamento e Execução de Projetos",
-        "Creative Thinking",
-        "Desenvolvimento e Aplicação de Software",
-        "Circuitos Elétricos"
+        "Projetos",
+        "Sobre o Aluno"
     ]
     
     var redirects=[
-        "ProjetosTeóricos.html",
-        "ProjetosPráticos.html",
-        "AnáliseMatemática.html",
-        "DirecionamentoExecução.html",
-        "CreativeThinking.html",
-        "DesenvolvimentoAplicação.html",
-        "CircuitosElétricos.html"
+        "Curso.html",
+        "PaginaDoAluno.html"
     ]
     
     rad= ctx.canvas.width/(2*(labels.length+1));

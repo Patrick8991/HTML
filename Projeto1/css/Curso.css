@@ -7,15 +7,17 @@ html, body {
 
 .logoinsper{
     max-height: 1.6cm;
+    position: absolute;
 }
 
 .topmenu{
     
     width: auto;
     margin-left: 7%;
-    height: 2.4cm;
+    height: 1.6cm;
     display: flex;
-    align-items: center;
+    align-items: top;
+    padding: 0.2cm;
 }
 
 .bannerimg{
@@ -34,15 +36,15 @@ html, body {
 
 .banner{
     
-    border: 1px solid black;
+    border: 2px solid black;
     background: #9c1f18;
     display: flex;
     height: 5cm;
     align-items: center;
 }
 
-.Return{
-    margin-right: 7%;
+.return{
+    margin-left: 85%;
     position: absolute;
     max-height: 1.6cm;
 }
@@ -50,8 +52,7 @@ html, body {
 .intro{
     
     margin-left: 7%;
-    border: 1px solid black;
-    padding: 10px 0px 10px 0px;
+    padding: 16px 0px 48px 0px;
     font-size: 24px;
     color: white;
 }
