@@ -76,31 +76,16 @@ class Button{
 var buttons= [];
 var rad;
 function buildButtons(){
-    var labels=[
-        "Projetos Teóricos",
-        "Projetos Práticos",
-        "Anáise Matemática",
-        "Direcionamento e Execução de Projetos",
-        "Creative Thinking",
-        "Desenvolvimento e Aplicação de Software",
-        "Circuitos Elétricos"
-    ]
+    var size= document.getElementsByTagName("a").length-2;
+    rad= ctx.canvas.width/(2*(size+1));
     
-    var redirects=[
-        "ProjetosTeóricos.html",
-        "ProjetosPráticos.html",
-        "AnáliseMatemática.html",
-        "DirecionamentoExecução.html",
-        "CreativeThinking.html",
-        "DesenvolvimentoAplicação.html",
-        "CircuitosElétricos.html"
-    ]
-    
-    rad= ctx.canvas.width/(2*(labels.length+1));
-    
-    for (var i = 0; i < labels.length; ++i) {
+    for (var i = 0; i < size; ++i) {
         var position= [2*rad+2*i*rad, (ctx.canvas.height/4)*(1+2*(i%2))];
-        buttons.push(new Button( position, labels[i], redirects[i]));
+        var labels= document.getElementsByTagName("a")[i+2].innerHTML;
+        var redirect= document.getElementsByTagName("a")[i+2].href;
+        //pegar desse jeito é instável, para de funcionar quando o número de links da página mudar
+        
+        buttons.push(new Button( position, labels, redirect));
     }
     
     //depois acerto uma função melhor para calcular a posição dos botões
