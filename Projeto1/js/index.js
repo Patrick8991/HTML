@@ -4,7 +4,7 @@ var canvas= document.getElementById("canvas")
 var ctx= canvas.getContext("2d");
 ctx.canvas.width  = window.innerWidth;
 ctx.canvas.height = window.innerHeight/2;
-ctx.font="14px calibri"; //TODO: usar uma fonte embasada
+ctx.font="14px arial"; //TODO: usar uma fonte embasada
 
 document.onmousemove= updateMousePos;
 document.onclick= mouseSelect;
