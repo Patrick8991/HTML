@@ -6,7 +6,7 @@ html, body {
 }
 
 .logoinsper{
-    max-height: 1.6cm;
+    max-height: 1.2cm;
     position: absolute;
 }
 
@@ -14,7 +14,7 @@ html, body {
     
     width: auto;
     margin-left: 7%;
-    height: 1.6cm;
+    height: 1.2cm;
     display: flex;
     align-items: top;
     padding: 0.2cm;
@@ -46,7 +46,7 @@ html, body {
 .return{
     margin-left: 85%;
     position: absolute;
-    max-height: 1.6cm;
+    max-height: 1.2cm;
 }
 
 .intro{
