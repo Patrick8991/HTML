@@ -32,6 +32,7 @@ html, body {
     position:relative;
     align-self: center;
     font-size: 42px;
+    font-family: "Arial", Arial, sans-serif;
 }
 
 .banner{
@@ -52,7 +53,7 @@ html, body {
 .intro{
     margin-left: 7%;
     padding: 16px 0px 48px 0px;
-    font-size: 24px;
+    font-size: 22px;
     color: white;
     font-family: "Arial", Arial, sans-serif;
 }
